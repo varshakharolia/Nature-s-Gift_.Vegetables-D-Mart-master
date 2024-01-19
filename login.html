@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<link rel="Shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="fruit.css">
+	<link rel="stylesheet" type="text/css" href="menubar.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+	<script type="text/javascript" src="css/js/jquery.min.js"></script>
+	<script type="text/javascript" src="css/js/bootstrap.min.js"></script>
+	<style type="text/css">
+	body{
+		background-image: url("./online shopping.gif");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#home_btn, #Sign_in_btn{
+		margin: 3px 0px;
+		border: 1px ridge red;
+		border-radius: 2rem;
+		padding: 5px 10px;
+		background-color: white;
+		color: blue;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	#Sign_up_btn:hover, #Sign_in_btn:hover{
+		background-color: orange;
+		color: white;
+	}
+	#Sign_up_btn{
+		border: 1px ridge red;
+		border-radius: 2rem;
+		padding: 5px 10px;
+		background-color: white;
+		color: blue;
+	}
+	#login-f{
+		padding: 30px 0px;
+		display: none;
+	}
+	#email_cont{
+		padding: 10px 35px;
+		border-radius: 1rem;
+		margin: 15px 0px;
+	}
+	#passwd_cont{
+		padding: 10px 35px;
+		border-radius: 1rem;
+		margin: 15px 0px;
+	}
+	#form_sub_btn{
+		margin: 10px 0px;
+		border-radius: 1rem;
+		padding: 8px 10px;
+		font-weight: bold;
+		border: 2px double orange;
+		background-color: #273C48;
+		color: white;
+	}
+	#reg-s{
+		padding: 30px 0px;
+		display: none;
+	}
+	#login:checked + #login-f{
+		display: block;
+	}
+	#reg:checked + #reg-s{
+		display: block;
+	}
+	.form_contant{
+		text-align: center;
+		border: 1px ridge green;
+		background-color: #97CD2D;
+		background-size: cover;
+		border-radius: 2rem;
+		height: 400px;
+		width: 400px;
+		margin-top: 10%;
+	}
+</style>
+</head>
+<body>
+	<div class="container form_contant">
+		<a id="home_btn" href="index.php">HOME</a>
+		<label id="Sign_in_btn" for="login">Sign in</label>
+		<input type="radio" id="login" name="form_radio" checked style="display: none;">
+			<form id="login-f" action="login_user.php" method="post">
+				<input type="email" id="email_cont" name="email1" placeholder="Enter email address" required><br>
+				<input type="password" id="passwd_cont" name="passwd1" placeholder="Password" required><br>
+				<input type="submit" id="form_sub_btn" name="submit_log_form">
+			</form>
+		<label id="Sign_up_btn" for="reg">Sign up</label>
+		<input type="radio" id="reg" name="form_radio" style="display: none;">
+			<form id="reg-s" action="reg_user.php" method="post">
+				<input type="email" name='Emailid' id="email_cont" placeholder="Enter email address" required><br>
+				<input type="password" name='Password' id="passwd_cont" placeholder="Password" minlength="8" required><br>
+				<input type="password" name='Rpassword' id="passwd_cont" placeholder="Repeate Password" requiredhome_btn><br>
+				<input type="submit" id="form_sub_btn" name="submit_reg_form">
+			</form>
+		</div>
+
+</body>
+</html>

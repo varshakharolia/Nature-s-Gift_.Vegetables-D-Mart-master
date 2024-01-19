@@ -1,0 +1,148 @@
+*{
+
+	padding: 0;
+
+	margin: 0;
+
+	box-sizing: border-box;
+
+}
+
+.menuBarCont{
+
+	background-color: #273C48;
+
+	padding: 15px 20px;
+
+	position: fixed;
+
+	width: 100%;
+
+	z-index: 1;
+
+}
+
+.menu_containt{
+
+	color: white;
+
+	margin: 0px 25px;
+
+	font-weight: bold;
+
+	font-family: Times New Roman;
+
+	font-size: 18px;
+
+	background-color: none;
+
+	padding: 5px 6px;
+
+}
+
+.menu_containt:hover{
+
+	color: #273C48;
+
+	background-color: white;
+
+	text-decoration: none;
+
+	border-radius: 2rem;
+
+}
+
+.Cart_icon{
+
+	margin: 0px 20px;
+
+}
+
+img.Cart_icon:hover{
+
+	box-shadow: 0px 3px white;
+
+}
+
+#autoMenu{
+
+	position: absolute;
+
+	display: none;
+
+}
+
+.menuBar_btn{
+
+	position: absolute;
+
+	display: none;
+
+	margin-left: 85%;
+
+}
+
+.menu_icon_line:hover{
+
+	box-shadow: 0px 0px 10px white;
+
+	border-radius: 15rem;
+
+}
+
+@media(max-width: 768px){
+
+	.menuBarCont{
+
+		padding-bottom: 70px;
+
+	}
+
+	.menuBar1{
+
+		flex-direction: column;
+
+		margin-top: 5px;
+
+		display: none;
+
+	}
+
+	.menuBar1 a{
+
+		display: flex;
+
+		justify-content: flex-start;
+
+		padding: 10px 0px;
+
+	}
+
+	#autoMenu:checked + .menuBar1{
+
+		display: flex;
+
+	}
+
+	.menuBar_btn{
+
+		display: flex;
+
+		float: left;
+
+	}
+
+	.logo{
+
+		margin-top: -15px;
+
+	}
+
+	.logo_media{
+
+		margin-top: -10px;
+
+	}
+
+}
+

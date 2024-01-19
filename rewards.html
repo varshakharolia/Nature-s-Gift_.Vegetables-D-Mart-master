@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Vegetables D~Mart</title>
+
+	<link rel="Shortcut icon" href="favicon.ico">
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="fruit.css">
+
+	<link rel="stylesheet" type="text/css" href="menubar.css">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+
+  <script type="text/javascript" src="css/js/jquery.min.js"></script>
+
+  <script type="text/javascript" src="css/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+    html{
+
+        scroll-behavior: smooth;
+
+    }
+
+	.footer_contant_mart:before{
+
+		content: '';
+
+		height: 15px;
+
+		width: 100%;
+
+		background-color: #A5CB0C;
+
+		position: absolute;
+
+		margin-top: -17px;
+
+	}
+
+	.footer_contant_mart{
+
+		width: 100%;
+
+		left: 0;
+
+		bottom: 0;
+
+		background-color: #F2F1EF;
+
+		margin-top: 30px;
+
+		margin-bottom: 2px;
+
+	}
+
+	.footer_contant_mart ul li{
+
+		list-style-type: none;
+
+	}
+
+	.footer_contant_heading{
+
+		font-family: 'Times New Roman';
+
+		font-weight: bold;
+
+		font-size: 20px;
+
+		color: #273C48;
+
+		margin: 10px 0px;
+
+	}
+
+	.footer_contant_txt{
+
+		font-family: 'Times New Roman';
+
+		font-weight: bold;
+
+		font-size: 14px;
+
+		color: green;
+
+		margin: 15px 0px;
+
+	}
+
+	.footer_contant_txt li{
+
+		margin: 10px 0px;
+
+	}
+
+	.footer_contant_txt1{
+
+		font-family: 'Times New Roman';
+
+		font-weight: bold;
+
+		font-size: 16px;
+
+		word-spacing: 5px;
+
+		color: green;
+
+		margin: 15px 0px;
+
+	}
+
+	.sub_mail_txt{
+
+		padding: 8px 20px;
+
+		border-radius: 2rem;
+
+	}
+
+	.sub_mail_btn{
+
+		padding: 8px 20px;
+
+		border-radius: 2rem;
+
+		color: orange;
+
+		font-weight: bold;
+
+		border: 1px ridge red;
+
+		background-color: white;
+
+	}
+
+	.sub_mail_btn:hover{
+
+		background-color: orange;
+
+		color: white;
+
+		border: none;
+
+	}
+
+	.footer_contant_end{
+
+		width: 100%;
+
+		left: 0;
+
+		margin-bottom: -1px;
+
+		background-color: #273C48;
+
+		text-align: center;
+
+		font-weight: bold;
+
+		font-size: 12px;
+
+		color: white;
+
+		letter-spacing: 2px;
+
+		padding: 6px 0px;
+
+	}
+
+	#up-arrow{
+
+	   position: fixed;
+
+	   right: 10px;
+
+	   top: 530px;
+
+	   z-index: 1;
+
+	}
+
+	    #coupons_cards_content{
+
+	        text-align: center;
+
+	    }
+
+	  	.coupons_cards{
+
+			font-family: Times New Roman;
+
+			display: inline-flex;
+
+			text-align: center;
+
+		}
+
+		.coupons_cards .card{
+
+			margin: 0px 5px;
+
+			border: 3px dotted orange;
+
+			border-radius: 1rem;
+
+			height: 300px;
+
+		}
+
+		.card img.img-fluid1{
+
+			height: 120px;
+
+			width: 120px;
+
+			transform: translate(50%, 3%);
+
+		}
+
+		.card img.img-fluid2{
+
+			height: 120px;
+
+			width: 230px;
+
+		}
+
+		#coupons-card-heading:before{
+
+			content: "";
+
+			height: 0.2rem;
+
+			width: 22rem;
+
+			background-color: blue;
+
+			position: absolute;
+
+			border-radius: 5rem;
+
+			transform: translate(-16%, -160%);
+
+		}
+
+		#coupons-card-heading{
+
+			text-align: center;
+
+			font-family: Times New Roman;
+
+			color: green;
+
+			font-weight: bold;
+
+			font-size: 35px;
+
+		}
+
+		#coupons-card-para{
+
+			text-align: center;
+
+			font-family: serif;
+
+			color: red;
+
+			font-size: 18px;
+
+		}
+
+		.coupons_card1{
+
+			background: linear-gradient(130deg, white, #ffffff 60%, cyan);	
+
+		}
+
+		.coupons_card2{
+
+			background: linear-gradient(20deg, white, #ffffff 40%, yellow);
+
+		}
+
+		.coupons_card4{
+
+			background: linear-gradient(210deg, white, #ffffff 80%, #F7941D);
+
+		}
+		#menu_containt{
+		  background-color: white;
+		  color: #273C48;
+		  border-radius: 2rem;
+		}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="menuBarCont" style="padding:0; margin:0;">
+
+<!--	<img src="logo.png" class="logo_media" width="70px;" style="position: absolute;">-->
+
+<div class="menuBar_btn">
+
+<label for="autoMenu">
+
+	<img class="menu_icon_line" src="banner/meanu_icon.jpg" width="60px;" style="color: white;">
+
+</label>
+
+</div>
+
+<input type="checkbox" id="autoMenu">
+
+	<nav class="menuBar1">
+
+		<img src="logo.png" class="logo" width="200px;">
+
+		<a class="menu_containt" href="index.php">HOME</a>
+
+		<a class="menu_containt" href="Gifting.php">GIFTING</a>
+
+		<a class="menu_containt" id="menu_containt" href="rewards.html">OFFERS ZONE</a>
+
+		<a class="menu_containt" href="about.html">ABOUT US</a>
+
+		<a class="menu_containt" href="login.html">LOGIN</a>
+
+		<input type="text" id="myInput" onkeyup="myFunction()" style="background-image: url(./banner/icons-transparent-search-9-original.png); background-repeat: no-repeat; background-position: right; background-size: contain;" placeholder="Search here..." title="Type here">
+
+		<a href="Cart_Page.php"><img src="./banner/Cart_icon.png" class="Cart_icon" width="50px;"></a>
+
+	</nav>
+
+</div>
+
+<div id="up-home"> </div>
+
+<div class="container-fluid">
+
+	<div class="offer-status">
+
+			<div class="vouchar_offer">
+
+		<p id="offer_zone1">
+
+			Vegetables D~Mart will give you 
+
+		</p>
+
+		<a class="More_Vouchar_cls" href="#" style="text-decoration: none;">100% Cashback Offer</a>
+
+		<br>
+
+		<p id="offer_zone2">on first order<sub>  { @RKayBhaker }.</sub></p>
+
+		<div style="margin-bottom: 15px;"><a style="text-decoration: none;" class="Voucher_Shop" href="index.php">Shop Now</a></div>
+
+	</div>
+
+	</div>
+
+	<div id="up-arrow">
+
+	    <a href="#up-home"><img src="up-arrow.webp" width="55px" height="50px"></a>
+
+	</div>
+
+	<div id="coupons_cards_content">
+
+	<div class="container coupons_cards">
+
+    <div class="row">
+
+	<div class="col">
+
+	<div class="card coupons_card1" style="width: 24rem;">
+
+		<img src="random.png" class="img-fluid1">
+
+		<div class="card-body">
+
+			<h1 id="coupons-card-heading">40% OFF</h1>
+
+			<p id="coupons-card-para">
+
+				Upto 40% + 150rs extra cashback on Grocery & Staples. <b><u> Random Offers </u></b>
+
+			</p>
+
+		</div>
+
+	</div></div>
+
+
+
+	<div class="col">
+
+	<div class="card coupons_card2" style="width: 24rem;">
+
+		<img src="HDFC.png" class="img-fluid1">
+
+		<div class="card-body">
+
+			<h1 id="coupons-card-heading">90% OFF</h1>
+
+			<p id="coupons-card-para">
+
+				Upto 90% + Extra Rs 100 Prepaid Cashback on eveything.
+
+			</p>
+
+		</div>
+
+	</div></div>
+
+
+
+	<div class="col">
+
+	<div class="card coupons_card3" style="width: 24rem;">
+
+		<img src="Gpay.png" class="img-fluid2">
+
+		<div class="card-body">
+
+			<h1 id="coupons-card-heading">25% OFF</h1>
+
+			<p id="coupons-card-para">
+
+				Shop & Max. Rs 150 Phonepe Cashback On 2 Orders.
+
+			</p>
+
+		</div>
+
+	</div></div>
+
+
+
+	<div class="col">
+
+	<div class="card coupons_card4" style="width: 24rem;">
+
+		<img src="amazon.jpg" class="img-fluid2">
+
+		<div class="card-body">
+
+			<h1 id="coupons-card-heading">80% OFF</h1>
+
+			<p id="coupons-card-para">
+
+				Shop for groceries online with best deals & enjoy.
+
+			</p>
+
+		</div>
+
+	</div></div>
+
+</div>
+
+</div></div>
+
+<div class="footer_contant_mart">
+
+	<div class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li><p class="footer_contant_heading">Can we help you?</p>
+
+						<ol class="footer_contant_txt">
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Help Center</a></li>		
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Cange My Order</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Ad Match</a></li>
+
+						</ol>
+
+					</li>
+
+					<li><p class="footer_contant_heading">Services</p>
+
+						<ol class="footer_contant_txt">
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Photo Centre</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Finacial Services</a></li>
+
+						</ol>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li><p class="footer_contant_heading">Flyers & more</p>
+
+						<ol class="footer_contant_txt">
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Store Flyer</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Accessible flyer</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Gift Cards</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Grocery on Rollback</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Grocery Best Sellers</a></li>
+
+						</ol>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="col-3">
+
+				<ul>
+
+					<li><p class="footer_contant_heading">About us</p>
+
+						<ol class="footer_contant_txt">
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">About Vegetable D~Mart</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Careers</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Charity & Communities</a></li>
+
+						</ol>
+
+					</li>
+
+					<li><p class="footer_contant_heading">Mailing address</p>
+
+						<ol class="footer_contant_txt">
+
+							<li>ABC Mart Corp.</li>
+
+							<li>1970 Mamblam Road</li>
+
+							<li>Banglore, INDIA</li>
+
+						</ol>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="col-md-5">
+
+				<h3 class="footer_contant_heading">Be in the know!</h3>
+
+				<div class="footer_contant_txt1">Get up-to-date information on weekly flyer features, Rollback & clearance items, exclusive products and offers. Stay Happy Stay Home...</div>
+
+				<input class="sub_mail_txt" type="mail" name="mail" placeholder="Enter Email Address">
+
+				<input class="sub_mail_btn" type="submit" name="mail_add_submition">
+
+				
+
+				<div class="footer_contant_heading">Connect with us</div>
+
+				<p class="footer_contant_txt1">Connect with us on your favourite social networks.</p>
+
+				<div>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-facebook"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-twitter"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-google"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-linkedin"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-instagram"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-skype"></i></a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<p class="footer_contant_end">
+
+	&copy;Vegetables D~Mart. All rights reserved | Privacy Policy | Terms of Use
+
+</p>
+
+</body>
+
+</html>

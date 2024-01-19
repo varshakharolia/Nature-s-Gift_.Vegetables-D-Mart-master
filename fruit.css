@@ -1,0 +1,920 @@
+#myInput{
+
+	padding: 5px 15px;
+
+	border-radius: 2rem;
+
+}
+
+.carousel_banner{
+
+	margin-top: 150px;
+
+}
+
+.heading_text1{
+
+	padding-top: 50px;
+
+	text-align: center;
+
+	font-size: 25px;
+
+	text-transform: uppercase;
+
+	font-weight: bold;
+
+	color: green;
+
+}
+
+.heading_text1:before{
+
+	content: "";
+
+	width: 10rem;
+
+	height: 1rem;
+
+	background-color: orchid;
+
+	position: absolute;
+
+	border-radius: 2rem;
+
+	margin-top: 13px;
+
+	transform: translate(-105%);
+
+}
+
+.heading_text1:after{
+
+	content: "";
+
+	width: 10rem;
+
+	height: 1rem;
+
+	background-color: orchid;
+
+	position: absolute;
+
+	border-radius: 2rem;
+
+	margin-top: -64px;
+
+	transform: translate(130%);
+
+}
+
+.card-title{
+
+	font-size: 20px;
+
+	color: red;
+
+	font-weight: normal;
+
+	font-family: Algerian;
+
+}
+
+.card-text{
+
+	color: blue;
+
+	font-family: "Lucida Handwriting";
+
+}
+
+a.btn_cat_card{
+
+	font-family: "Lucida Handwriting";
+
+	text-decoration: none;
+
+	border-radius: 2rem;
+
+	border: 1px ridge orange;
+
+	padding: 5px 15px;
+
+}
+
+a.btn_cat_card:hover{
+
+	color: white;
+
+	background-color: orange;
+
+	border-radius: 2rem;
+
+}
+
+.a{
+
+	color: #92BE4D;
+
+}
+
+.container1{
+
+	margin-left: 50px;
+
+}
+
+.card-title1{
+
+	font-size: 12px;
+
+	border: 1px ridge yellow;
+
+	text-align: center;
+
+}
+
+.card-text1{
+
+	font-size: 22px;
+
+	font-family: Times New Roman;
+
+	color: green;
+
+	font-weight: bold;
+
+	margin-top: 15px;
+
+	justify-content: center;
+
+}
+
+.MRP{
+
+	padding-bottom: 3px;
+
+	padding-top: 3px;
+
+	margin-left: 23px;
+
+	margin-right: 23px;
+
+	font-weight: bolder;
+
+	font-size: 16px;
+
+	text-align: center;
+
+}
+
+a i{
+
+	border: 1px ridge red;
+
+	padding: 10px 10px;
+
+	border-radius: 2rem;
+
+	font-weight: bold;
+
+	color: red;
+
+	outline: none;
+
+}
+
+a i:hover{
+
+	outline: none;
+
+	border: none;
+
+	border-radius: 2rem;
+
+	color: white;
+
+	background-color: orange;
+
+
+
+}
+
+.col_respons:hover{
+
+	box-shadow: 0 0 30px #92BE4D;
+
+	border-radius: 15px;
+
+}
+
+.footer_container{
+
+	background-color: #92BE4D;
+
+	color: white;
+
+	padding: 30px 20px;
+
+}
+
+.footer_contant{
+
+	font-weight: bold;
+
+	font-size: 18px;
+
+}
+
+.footer_contant1{
+
+	font-weight: bold;
+
+	font-size: 18px;
+
+}
+
+.footer_contant2{
+
+	font-weight: bold;
+
+	font-size: 18px;
+
+}
+
+.footer_contant3{
+
+	font-weight: bold;
+
+	font-size: 18px;
+
+}
+
+.footer_contant4{
+
+	font-weight: bold;
+
+	font-size: 18px;
+
+}
+
+.footer_contant_f1r{
+
+	font-size: 16px;
+
+	color: blue;
+
+}
+
+.footer_contant_f1r:hover{
+
+	color: white;
+
+}
+
+.footer_end{
+
+	background-color: #00FF7F;
+
+	width: 100%;
+
+	padding-right: 50px;
+
+	padding-left: 30px;
+
+	border-radius: 20px;
+
+}
+
+.heading_text2{
+
+	padding-top: 100px;
+
+	text-align: center;
+
+	font-size: 25px;
+
+	text-transform: uppercase;
+
+}
+
+.container1{
+
+	margin-top: 50px;
+
+}
+
+div.card-text2{
+
+	color: orange;
+
+}
+
+.footer_container1{
+
+	background-color: #92BE4D;
+
+	color: white;
+
+	margin-top: 500px;
+
+	padding: 5px 5px;
+
+	box-shadow: 0 0 30px black;
+
+}
+
+.footer_end1{
+
+	background-color: #00FF7F;
+
+	width: 100%;
+
+	padding-right: 50px;
+
+	padding-left: 30px;
+
+	border-radius: 20px;
+
+}
+
+.footer_container1:hover{
+
+	background-color: orange;
+
+}
+
+.heading_text_gifts{
+
+	padding-top: 150px;
+
+	text-align: center;
+
+	font-size: 35px;
+
+	color: #EB2828;
+
+	font-family: Times New Roman;
+
+	font-weight: bold;
+
+}
+
+.heading_text_gifts:after{
+
+	content: "";
+
+	width: 18rem;
+
+	height: 1rem;
+
+	background-color: #A0CB06;
+
+	position: absolute;
+
+	transform: translate(-140%);
+
+	margin-top: 50px;
+
+	border-radius: 2rem;
+
+}
+
+.footer_container2{
+
+	background-color: #92BE4D;
+
+	color: white;
+
+	margin-top: 5%;
+
+	padding: 5px 5px;
+
+	box-shadow: 0 0 30px black;
+
+}
+
+.rewards_contant{
+
+	margin-top: 25px;
+
+	font-family: cursive;
+
+	box-shadow: 0 0 30px blue;
+
+	font-size: 14px;
+
+}
+
+.rewards_contant{
+
+	background-color: lightgreen; 
+
+}
+
+ul.rewards_contant1{
+
+	color: white;
+
+	font-weight: bolder;
+
+	list-style-type: square;
+
+}
+
+ul.rewards_contant1 ul{
+
+	color: indigo;
+
+}
+
+.offer_class{
+
+	margin-top: 90px;
+
+}
+
+.offer_status{
+
+	margin-top: 150px;
+
+	font-size: 35px;
+
+	color: yellow;
+
+	text-align: center;
+
+}
+
+.offer_class1{
+
+	background-color: #F4F7E0;
+
+}
+
+.fa-user-circle:hover, .fa-cart-arrow-down:hover{
+
+	box-shadow: 0 0 30px blue;
+
+	border-radius: 90%;
+
+}
+
+.cat_vegetable{
+
+	font-size: 50px;
+
+	text-align: center;
+
+	color: green;
+
+	font-family: Times New Roman;
+
+	margin: 10px 0px;
+
+}
+
+.cat_vegetable:after{
+
+	content: "";
+
+	width: 15rem;
+
+	height: .8rem;
+
+	background-color: indigo;
+
+	position: absolute;
+
+	left: 50%;
+
+	margin-top: 70px;
+
+	transform: translate(-50%);
+
+	border-radius: 2rem;
+
+	margin-bottom: 50px;
+
+}
+
+.cat_fruits{
+
+	font-size: 50px;
+
+	text-align: center;
+
+	color: green;
+
+	font-family: Times New Roman;
+
+	margin: 10px 0px;
+
+}
+
+.cat_fruits:after{
+
+	content: "";
+
+	width: 8rem;
+
+	height: .8rem;
+
+	background-color: orange;
+
+	position: absolute;
+
+	left: 50%;
+
+	margin-top: 63px;
+
+	transform: translate(-50%);
+
+	border-radius: 2rem;
+
+	margin-bottom: 10px;
+
+}
+
+#myUL{
+
+	list-style-type: none;
+
+	
+
+}
+
+#myUL:hover{
+
+	text-decoration: none;
+
+}
+
+ 	.vouchar_offer{
+
+  		border: 1px solid olive;
+
+  		text-align: center;
+
+  		border-radius: 2rem;
+
+  		background-color: #D52E3F;
+
+  		background-size: contain;
+
+  		background-size: cover;
+
+  		background-repeat: no-repeat;
+
+  		margin-top: 125px;
+
+  	}
+
+  	#offer_zone1{
+
+  		color: #FCEDD8;
+
+  		font-family: Times New Roman;
+
+  		font-size: 22px;
+
+  		text-shadow: 2px 0px 2px #efa032;
+
+  		text-align: left;
+
+  		margin-left: 50px;
+
+  		margin-bottom: 5px;
+
+  	}
+
+  	#offer_zone2{
+
+  		color: #FCEDD8;
+
+  		font-family: Times New Roman;
+
+  		font-size: 22px;
+
+  		text-shadow: 2px 0px 2px #efa032;
+
+  		text-align: right;
+
+  		margin-right: 50px;
+
+  		margin-top: 5px; 
+
+  	}
+
+  	a.More_Vouchar_cls{
+
+  		cursor: progress;
+
+  		color: #fcedd8;
+
+  		font-size: 100px;
+
+  		font-family: Lucida Handwriting;
+
+  		text-decoration: none;
+
+  		border: 2px dashed white;
+
+  		background-color: #D52E3F;
+
+  		padding: 10px 50px;
+
+  		border-radius: 2rem;
+
+  		text-shadow:1px 1px 0px #eb452b,
+
+  					5px 5px 0px #efa032,
+
+  					10px 8px 0px #46b59b,
+
+  					15px 11px 0px #017e7f,
+
+  					25px 14px 0px #052939,
+
+  					35px 17px 0px #c11a2b;					   
+
+  	}
+
+  	a.Voucher_Shop{
+
+  		text-decoration: none;
+
+  		font-family: Times New Roman;
+
+  		font-size: 25px;
+
+  		border: 2px ridge red;
+
+  		border-radius: 2rem;
+
+  		padding: 5px 10px;
+
+  		color: yellow;
+
+  	}
+
+  	a.Voucher_Shop:hover{
+
+  		background-color: orange;
+
+  		color: white;
+
+  		border: none;
+
+  	}
+
+  	@media(max-width: 1290px){
+
+  		a.More_Vouchar_cls{
+
+  			font-size: 80px;
+
+  		}
+
+  	}
+
+  	@media(max-width: 1050px){
+
+  		a.More_Vouchar_cls{
+
+  			font-size: 50px;
+
+  		}
+
+  		.vouchar_offer{
+
+  			margin-top: 180px;
+
+  		}
+
+  	}
+
+  	@media(max-width: 750px){
+
+  		a.More_Vouchar_cls{
+
+  			font-size: 40px;
+
+  		}
+
+  		.vouchar_offer{
+
+  			margin-top: 120px;
+
+  		}
+
+  	}
+
+  	@media(max-width: 590px){
+
+  		a.More_Vouchar_cls{
+
+  			font-size: 30px;
+
+  		}
+
+  	}
+
+  	.trustworthy_cont{
+
+  		margin-top: 50px;
+
+  	}
+
+  	#trustworthy_head1{
+
+  		font-weight: bold;
+
+  		color: #022682;
+
+  		font-size: 50px;
+
+  		font-family: Georgia;
+
+  		text-align: center;
+
+  	}
+
+  	#trustworthy_head1:after{
+
+  		content: "";
+
+  		width: 15rem;
+
+  		height: 1rem;
+
+  		background-color: #FFD361;
+
+  		position: absolute;
+
+  		border-radius: 2rem;
+
+  		margin-top: 60px;
+
+  		transform: translate(-150%);
+
+  	}
+
+  	#trustworthy_head2{
+
+  		font-weight: bold;
+
+  		color: #EB4E7E;
+
+  		font-size: 35px;
+
+  		font-family: 'Bodoni MT';
+
+  		padding: 20px 140px;
+
+  		text-align: center;
+
+  	}
+
+  	#Delivery_head1{
+
+  		font-weight: bold;
+
+  		color: orange;
+
+  		font-size: 50px;
+
+  		font-family: Georgia;
+
+  		text-align: center;
+
+  	}
+
+  	#Delivery_head1:after{
+
+  		content: "";
+
+  		width: 18rem;
+
+  		height: 1rem;
+
+  		background-color: #022682;
+
+  		position: absolute;
+
+  		border-radius: 2rem;
+
+  		margin-top: 60px;
+
+  		transform: translate(-160%);
+
+  	}
+
+  	#Delivery_head2{
+
+  		font-weight: bold;
+
+  		color: blue;
+
+  		font-size: 35px;
+
+  		font-family: 'Bodoni MT';
+
+  		padding: 20px 140px;
+
+  		text-align: center;
+
+  	}
+
+  	.helpdisk_container{
+
+  		margin-top: 50px;
+
+  	}
+
+  	#helpdisk_head1{
+
+  		font-weight: bold;
+
+  		color: #D52E3F;
+
+  		font-size: 50px;
+
+  		font-family: Georgia;
+
+  		text-align: center;
+
+  	}
+
+  	#helpdisk_head1:after{
+
+  		content: "";
+
+  		width: 15rem;
+
+  		height: 1rem;
+
+  		background-color: #1242F4;
+
+  		position: absolute;
+
+  		border-radius: 2rem;
+
+  		margin-top: 60px;
+
+  		transform: translate(-130%);
+
+  	}
+
+  	#helpdisk_head2{
+
+  		font-weight: bold;
+
+  		color: #273C48;
+
+  		font-size: 35px;
+
+  		font-family: 'Bodoni MT';
+
+  		padding: 20px 140px;
+
+  		text-align: center;
+
+  	}
+
+  	#Stay_Home_head1{
+
+  		font-weight: bold;
+
+  		color: #526EDC;
+
+  		font-size: 50px;
+
+  		font-family: Georgia;
+
+  		text-align: center;
+
+  		padding: 50px 0px;
+
+  	}
+
+  	#Stay_Home_head1:after{
+
+  		content: "";
+
+  		width: 8rem;
+
+  		height: 8px;
+
+  		background-color: #D52E3F;
+
+  		position: absolute;
+
+  		border-radius: 2rem;
+
+  		margin-top: 58px;
+
+  		transform: translate(-200%);
+
+  	}
+

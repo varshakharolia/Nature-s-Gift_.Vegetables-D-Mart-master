@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Vegetables D~Mart</title>
+
+	<link rel="Shortcut icon" href="favicon.ico">
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="fruit.css">
+
+	<link rel="stylesheet" type="text/css" href="menubar.css">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+
+  <script type="text/javascript" src="css/js/jquery.min.js"></script>
+
+  <script type="text/javascript" src="css/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+    html{
+
+        scroll-behavior: smooth;
+
+    }
+
+	.footer_contant_mart:before{
+
+		content: '';
+
+		height: 15px;
+
+		width: 100%;
+
+		background-color: #A5CB0C;
+
+		position: absolute;
+
+		margin-top: -17px;
+
+	}
+
+	.footer_contant_mart{
+
+		width: 100%;
+
+		left: 0;
+
+		bottom: 0;
+
+		background-color: #F2F1EF;
+
+		margin-top: 30px;
+
+		margin-bottom: 2px;
+
+	}
+
+	.footer_contant_mart ul li{
+
+		list-style-type: none;
+
+	}
+
+	.footer_contant_heading{
+
+		font-family: 'Times New Roman';
+
+		font-weight: bold;
+
+		font-size: 20px;
+
+		color: #273C48;
+
+		margin: 10px 0px;
+
+	}
+
+	.footer_contant_txt{
+
+		font-family: 'Times New Roman';
+
+		font-weight: bold;
+
+		font-size: 14px;
+
+		color: green;
+
+		margin: 15px 0px;
+
+	}
+
+	.footer_contant_txt li{
+
+		margin: 10px 0px;
+
+	}
+
+	.footer_contant_txt1{
+
+		font-family: 'Times New Roman';
+
+		font-weight: bold;
+
+		font-size: 16px;
+
+		word-spacing: 5px;
+
+		color: green;
+
+		margin: 15px 0px;
+
+	}
+
+	.sub_mail_txt{
+
+		padding: 8px 20px;
+
+		border-radius: 2rem;
+
+	}
+
+	.sub_mail_btn{
+
+		padding: 8px 20px;
+
+		border-radius: 2rem;
+
+		color: orange;
+
+		font-weight: bold;
+
+		border: 1px ridge red;
+
+		background-color: white;
+
+	}
+
+	.sub_mail_btn:hover{
+
+		background-color: orange;
+
+		color: white;
+
+		border: none;
+
+	}
+
+	.footer_contant_end{
+
+		width: 100%;
+
+		left: 0;
+
+		margin-bottom: -1px;
+
+		background-color: #273C48;
+
+		text-align: center;
+
+		font-weight: bold;
+
+		font-size: 12px;
+
+		color: white;
+
+		letter-spacing: 2px;
+
+		padding: 6px 0px;
+
+	}
+
+	#up-arrow{
+
+	   position: fixed;
+
+	   right: 10px;
+
+	   top: 530px;
+
+	   z-index: 1;
+
+	}
+
+	.offer-status{
+
+	    margin-bottom: 128px;
+
+	}
+
+	#about_container{
+
+			border: 2px dashed green;
+
+			border-radius: 2rem;
+
+			margin-top: 100px;
+
+		}
+
+		#about_container_quotes{
+
+			float: left;
+
+			color: green;
+
+			font-family: 'Segoe Print';
+
+			background: linear-gradient(135deg, orange, orange 50%, cyan);
+
+			padding: 40px 125px;
+
+			border-top-left-radius: 2rem;
+
+			border-bottom-left-radius: 2rem;
+
+			margin-left: -15px;
+
+			margin-bottom: -0px;
+
+		}
+
+		#about_container_img{
+
+			float: right;
+
+			padding-left: -10px;
+
+			margin-right: -12px;
+
+			border-top-right-radius: 2rem;
+
+			border-bottom-right-radius: 2rem;
+
+		}
+
+		#quotes1{
+
+			font-size: 20px;
+
+		}
+
+		#quotes2{
+
+			font-size: 55px;
+
+		}
+
+		#quotes3{
+
+			font-size: 55px;
+
+		}
+
+		#quotes4{
+
+			font-size: 25px;
+
+		}
+
+		#quotes5{
+
+			font-size: 20px;
+
+		}
+
+		#quotes6{
+
+			font-size: 45px;
+
+		}
+
+		#inside_border{
+
+			border: 3px solid white;
+
+			position: absolute;
+
+			height: 375px;
+
+			width: 1000px;
+
+			right: 180px;
+
+			top: 150px;
+
+			border-radius: 2rem;
+
+		}
+		#menu_containt{
+		  background-color: white;
+		  color: #273C48;
+		  border-radius: 2rem;
+		}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="menuBarCont" style="padding:0; margin:0;">
+
+<!--	<img src="logo.png" class="logo_media" width="70px;" style="position: absolute;">-->
+
+<div class="menuBar_btn">
+
+<label for="autoMenu">
+
+	<img class="menu_icon_line" src="banner/meanu_icon.jpg" width="60px;" style="color: white;">
+
+</label>
+
+</div>
+
+<input type="checkbox" id="autoMenu">
+
+	<nav class="menuBar1">
+
+		<img src="logo.png" class="logo" width="200px;">
+
+		<a class="menu_containt" href="index.php">HOME</a>
+
+		<a class="menu_containt" href="Gifting.php">GIFTING</a>
+
+		<a class="menu_containt" href="rewards.html">OFFERS ZONE</a>
+
+		<a class="menu_containt" id="menu_containt" href="#" active>ABOUT US</a>
+
+		<a class="menu_containt" href="login.html">LOGIN</a>
+
+		<input type="text" id="myInput" onkeyup="myFunction()" style="background-image: url(./banner/icons-transparent-search-9-original.png); background-repeat: no-repeat; background-position: right; background-size: contain;" placeholder="Search here..." title="Type here">
+
+		<a href="Cart_Page.php"><img src="./banner/Cart_icon.png" class="Cart_icon" width="50px;"></a>
+
+	</nav>
+
+</div>
+
+<div id="up-home"> </div>
+
+<div class="container-fluid">
+
+	<div class="offer-status">
+
+	</div>
+
+	<div>
+
+	    
+
+	</div>
+
+		<div class="container" id="about_container">
+
+		<div id="inside_border"></div>
+
+		<p id="about_container_quotes"><span id="quotes1">Eat lots of</span><br><span id="quotes2">Fruits</span><br> & <br><span id="quotes3">Green</span><br><span id="quotes4">vegetables</span><br><span id="quotes5">to keep you always on the</span><br><span id="quotes6">Go.</span><span>#RAKESH BHAKER</span></p>
+
+		<img id="about_container_img" src="Fruits-and-Vegetables.jpg" class="img-fluid" height="300px" width="616px">
+
+	</div>
+
+	<div id="up-arrow">
+
+	    <a href="#up-home"><img src="up-arrow.webp" width="55px" height="50px"></a>
+
+	</div>
+
+<div class="container">
+
+	<div class="row">
+
+		<div class="col">
+
+			<img src="banner/buying.gif" width="500px;">
+
+		</div>
+
+		<div class="col trustworthy_cont">
+
+				<h2 id="trustworthy_head1">Trustworthy</h2>
+
+				<div id="trustworthy_head2">We will provide you trustworthy, secure and reliable services.</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="container">
+
+	<div class="row">
+
+				<div class="col trustworthy_cont">
+
+				<h2 id="Delivery_head1">Secure Delivery</h2>
+
+				<div id="Delivery_head2">Anywhere, anytime 24x7 services availabe only for you.</div>
+
+		</div>
+
+		<div class="col">
+
+			<img src="banner/deliver.gif" width="500px;" style="border-top-left-radius: 30%; border-bottom-right-radius: 30%;">
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="container">
+
+	<div class="row helpdisk_container">
+
+		<div class="col">
+
+			<img src="banner/helpdisk.gif" width="500px;" style="border-radius: 15rem;">
+
+		</div>
+
+		<div class="col helpdisk_cont">
+
+				<h2 id="helpdisk_head1">Help Disk</h2>
+
+				<div id="helpdisk_head2">We will provide you trustworthy, secure and reliable services.</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="container">
+
+	<div class="row">
+
+				<div class="col trustworthy_cont">
+
+				<h2 id="Stay_Home_head1">Stay Home <br> Stay Safe</h2>
+
+		</div>
+
+		<div class="col">
+
+			<img src="banner/StayHome_Covid19.gif" width="500px;" align="right">
+
+		</div>
+
+	</div>
+
+</div>
+
+</div>
+
+<div class="footer_contant_mart">
+
+	<div class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li><p class="footer_contant_heading">Can we help you?</p>
+
+						<ol class="footer_contant_txt">
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Help Center</a></li>		
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Cange My Order</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Ad Match</a></li>
+
+						</ol>
+
+					</li>
+
+					<li><p class="footer_contant_heading">Services</p>
+
+						<ol class="footer_contant_txt">
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Photo Centre</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Finacial Services</a></li>
+
+						</ol>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="col-md-2">
+
+				<ul>
+
+					<li><p class="footer_contant_heading">Flyers & more</p>
+
+						<ol class="footer_contant_txt">
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Store Flyer</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Accessible flyer</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Gift Cards</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Grocery on Rollback</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Grocery Best Sellers</a></li>
+
+						</ol>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="col-3">
+
+				<ul>
+
+					<li><p class="footer_contant_heading">About us</p>
+
+						<ol class="footer_contant_txt">
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">About Vegetable D~Mart</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Careers</a></li>
+
+							<li><img src="./banner/arrow_footer.png" width="25px;"><a href="#">Charity & Communities</a></li>
+
+						</ol>
+
+					</li>
+
+					<li><p class="footer_contant_heading">Mailing address</p>
+
+						<ol class="footer_contant_txt">
+
+							<li>ABC Mart Corp.</li>
+
+							<li>1970 Mamblam Road</li>
+
+							<li>Banglore, INDIA</li>
+
+						</ol>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="col-md-5">
+
+				<h3 class="footer_contant_heading">Be in the know!</h3>
+
+				<div class="footer_contant_txt1">Get up-to-date information on weekly flyer features, Rollback & clearance items, exclusive products and offers. Stay Happy Stay Home...</div>
+
+				<input class="sub_mail_txt" type="mail" name="mail" placeholder="Enter Email Address">
+
+				<input class="sub_mail_btn" type="submit" name="mail_add_submition">
+
+				
+
+				<div class="footer_contant_heading">Connect with us</div>
+
+				<p class="footer_contant_txt1">Connect with us on your favourite social networks.</p>
+
+				<div>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-facebook"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-twitter"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-google"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-linkedin"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-instagram"></i></a>
+
+					<a href="#" class="w3-xlarge"><i class="fa fa-skype"></i></a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<p class="footer_contant_end">
+
+	&copy;Vegetables D~Mart. All rights reserved | Privacy Policy | Terms of Use
+
+</p>
+
+</body>
+
+</html>
